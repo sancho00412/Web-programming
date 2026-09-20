@@ -1,0 +1,508 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Qamqor Health IoT metabolic syndrome monitoring dashboard">
+    <title>Qamqor Health IoT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <div class="container nav-container">
+
+            <div class="logo">
+                <div class="logo-mark">Q</div>
+                <div>
+                    <span class="logo-name">Qamqor</span>
+                    <span class="logo-subtitle">HEALTH IoT</span>
+                </div>
+            </div>
+
+            <nav class="navigation">
+                <a href="#overview">Overview</a>
+                <a href="#sensors">Sensors</a>
+                <a href="#patient">Patient</a>
+                <a href="#alerts">Alerts</a>
+            </nav>
+
+            <div class="system-status">
+                <span class="status-dot"></span>
+                LIVE
+            </div>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section class="hero" id="overview">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <span class="eyebrow">KAZAKHSTAN • SMART HEALTHCARE</span>
+
+                    <h1>
+                        Metabolic Health
+                        <span>at a Glance.</span>
+                    </h1>
+
+                    <p>
+                        Qamqor Health IoT collects real-time data from connected
+                        medical sensors and helps healthcare professionals
+                        monitor patients with metabolic syndrome.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#sensors" class="primary-button">
+                            Open Monitoring
+                        </a>
+
+                        <a href="#patient" class="secondary-button">
+                            Patient Profile
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="monitor-card">
+
+                    <div class="monitor-header">
+                        <span>LIVE MONITOR</span>
+                        <span class="live-label">
+                            <span class="status-dot"></span>
+                            Connected
+                        </span>
+                    </div>
+
+                    <div class="heart-display">
+                        <div class="heart-circle">♥</div>
+
+                        <div>
+                            <small>HEART RATE</small>
+                            <strong>72 <span>BPM</span></strong>
+                        </div>
+                    </div>
+
+                    <div class="mini-chart">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="monitor-footer">
+                        <span>Sensor: HR-04</span>
+                        <span>21:22:14</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= PATIENT ================= -->
+        <section class="patient-section" id="patient">
+
+            <div class="container">
+
+                <div class="section-title">
+                    <span class="eyebrow">PATIENT PROFILE</span>
+                    <h2>Current Patient</h2>
+                </div>
+
+
+                <div class="patient-card">
+
+                    <div class="avatar">
+                        ЕС
+                    </div>
+
+                    <div class="patient-main">
+                        <h3>Ерлан Сәрсенов</h3>
+                        <p>Patient ID: KZ-MS-2026-017</p>
+                    </div>
+
+                    <div class="patient-info">
+                        <div>
+                            <span>AGE</span>
+                            <strong>48 years</strong>
+                        </div>
+
+                        <div>
+                            <span>GENDER</span>
+                            <strong>Male</strong>
+                        </div>
+
+                        <div>
+                            <span>RISK LEVEL</span>
+                            <strong class="moderate">Moderate</strong>
+                        </div>
+
+                        <div>
+                            <span>MONITORING</span>
+                            <strong class="active">Active</strong>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SENSOR DASHBOARD ================= -->
+        <section class="dashboard" id="sensors">
+
+            <div class="container">
+
+                <div class="dashboard-heading">
+
+                    <div>
+                        <span class="eyebrow">REAL-TIME DATA</span>
+                        <h2>Health Parameters</h2>
+                    </div>
+
+                    <div class="last-sync">
+                        Last synchronization
+                        <strong>21:22</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="sensor-grid">
+
+                    <!-- Temperature -->
+                    <article class="sensor-card">
+
+                        <div class="sensor-top">
+                            <div class="sensor-symbol temp">°C</div>
+                            <span class="tag stable">STABLE</span>
+                        </div>
+
+                        <p class="sensor-name">Body Temperature</p>
+
+                        <div class="value">
+                            36.6
+                            <span>°C</span>
+                        </div>
+
+                        <div class="meter">
+                            <div style="width: 43%;"></div>
+                        </div>
+
+                        <div class="sensor-bottom">
+                            <span>Sensor T-01</span>
+                            <span>21:21</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Glucose -->
+                    <article class="sensor-card">
+
+                        <div class="sensor-top">
+                            <div class="sensor-symbol glucose">GL</div>
+                            <span class="tag normal">NORMAL</span>
+                        </div>
+
+                        <p class="sensor-name">Blood Glucose</p>
+
+                        <div class="value">
+                            6.4
+                            <span>mmol/L</span>
+                        </div>
+
+                        <div class="meter">
+                            <div style="width: 48%;"></div>
+                        </div>
+
+                        <div class="sensor-bottom">
+                            <span>Sensor BG-02</span>
+                            <span>21:20</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Heart -->
+                    <article class="sensor-card">
+
+                        <div class="sensor-top">
+                            <div class="sensor-symbol heart">♥</div>
+                            <span class="tag stable">STABLE</span>
+                        </div>
+
+                        <p class="sensor-name">Heart Rate</p>
+
+                        <div class="value">
+                            72
+                            <span>BPM</span>
+                        </div>
+
+                        <div class="meter">
+                            <div style="width: 51%;"></div>
+                        </div>
+
+                        <div class="sensor-bottom">
+                            <span>Sensor HR-04</span>
+                            <span>21:22</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Blood Pressure -->
+                    <article class="sensor-card elevated-card">
+
+                        <div class="sensor-top">
+                            <div class="sensor-symbol pressure">BP</div>
+                            <span class="tag elevated">ELEVATED</span>
+                        </div>
+
+                        <p class="sensor-name">Blood Pressure</p>
+
+                        <div class="value">
+                            138/87
+                            <span>mmHg</span>
+                        </div>
+
+                        <div class="meter orange-meter">
+                            <div style="width: 69%;"></div>
+                        </div>
+
+                        <div class="sensor-bottom">
+                            <span>Sensor BP-07</span>
+                            <span>21:19</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- ECG -->
+                    <article class="sensor-card">
+
+                        <div class="sensor-top">
+                            <div class="sensor-symbol ecg">ECG</div>
+                            <span class="tag normal">NORMAL</span>
+                        </div>
+
+                        <p class="sensor-name">Electrocardiogram</p>
+
+                        <div class="value ecg-value">
+                            Sinus
+                            <span>rhythm</span>
+                        </div>
+
+                        <div class="ecg-wave">
+                            ──╱╲──╱╲────╱╲──
+                        </div>
+
+                        <div class="sensor-bottom">
+                            <span>Sensor ECG-03</span>
+                            <span>21:22</span>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Oxygen -->
+                    <article class="sensor-card">
+
+                        <div class="sensor-top">
+                            <div class="sensor-symbol oxygen">O₂</div>
+                            <span class="tag normal">NORMAL</span>
+                        </div>
+
+                        <p class="sensor-name">Blood Oxygen</p>
+
+                        <div class="value">
+                            97
+                            <span>% SpO₂</span>
+                        </div>
+
+                        <div class="meter">
+                            <div style="width: 94%;"></div>
+                        </div>
+
+                        <div class="sensor-bottom">
+                            <span>Sensor OX-05</span>
+                            <span>21:21</span>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ALERTS ================= -->
+        <section class="alerts-section" id="alerts">
+
+            <div class="container">
+
+                <div class="section-title">
+                    <span class="eyebrow">SYSTEM NOTIFICATIONS</span>
+                    <h2>Health Alerts</h2>
+                </div>
+
+
+                <div class="alerts-grid">
+
+                    <div class="alert warning-alert">
+
+                        <div class="alert-icon">!</div>
+
+                        <div class="alert-content">
+                            <div class="alert-title">
+                                <h3>Blood Pressure Elevated</h3>
+                                <span>21:19</span>
+                            </div>
+
+                            <p>
+                                Current reading is 138/87 mmHg.
+                                Continue monitoring the patient's blood pressure.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="alert success-alert">
+
+                        <div class="alert-icon">✓</div>
+
+                        <div class="alert-content">
+                            <div class="alert-title">
+                                <h3>Heart Rate Stable</h3>
+                                <span>21:22</span>
+                            </div>
+
+                            <p>
+                                Heart rate is 72 BPM and currently
+                                within the monitored range.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="alert success-alert">
+
+                        <div class="alert-icon">✓</div>
+
+                        <div class="alert-content">
+                            <div class="alert-title">
+                                <h3>Glucose Normal</h3>
+                                <span>21:20</span>
+                            </div>
+
+                            <p>
+                                Blood glucose is 6.4 mmol/L.
+                                No immediate action required.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <div class="logo">
+                    <div class="logo-mark">Q</div>
+
+                    <div>
+                        <span class="logo-name">Qamqor</span>
+                        <span class="logo-subtitle">HEALTH IoT</span>
+                    </div>
+                </div>
+
+                <p>
+                    Connected healthcare monitoring
+                    for a healthier tomorrow.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>System</h4>
+
+                <a href="#overview">Overview</a>
+                <a href="#sensors">Sensors</a>
+                <a href="#patient">Patient</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Support</h4>
+
+                <a href="mailto:support@qamqor-health.example">
+                    Email Support
+                </a>
+
+                <a href="tel:+77001234567">
+                    +7 700 123 45 67
+                </a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>System Status</h4>
+
+                <p class="footer-online">
+                    ● All sensors operational
+                </p>
+
+                <p>© 2026 Qamqor Health IoT</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
+```
