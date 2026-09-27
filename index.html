@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Qamqor Health IoT metabolic syndrome monitoring dashboard">
+    <meta name="description" content="Qamqor Health IoT metabolic syndrome monitoring system">
     <title>Qamqor Health IoT</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -23,6 +23,9 @@
 
         <nav class="navigation">
             <a href="#overview">Overview</a>
+            <a href="#metabolic">Condition</a>
+            <a href="#devices">Devices</a>
+            <a href="#how-it-works">How It Works</a>
             <a href="#sensors">Sensors</a>
             <a href="#patient">Patient</a>
             <a href="#alerts">Alerts</a>
@@ -39,9 +42,9 @@
 
 <main>
 
-    <!-- Hero Section -->
-    <section class="hero" id="overview">
+    <!-- ================= HERO ================= -->
 
+    <section class="hero" id="overview">
         <div class="container hero-grid">
 
             <div class="hero-content">
@@ -57,12 +60,11 @@
 
                 <p>
                     Qamqor Health IoT collects real-time data from connected
-                    medical sensors and helps healthcare professionals monitor
-                    patients with metabolic syndrome.
+                    medical sensors and helps healthcare professionals
+                    monitor patients with metabolic syndrome.
                 </p>
 
                 <div class="hero-buttons">
-
                     <a href="#sensors" class="primary-button">
                         Open Monitoring
                     </a>
@@ -70,7 +72,6 @@
                     <a href="#patient" class="secondary-button">
                         Patient Profile
                     </a>
-
                 </div>
 
             </div>
@@ -87,7 +88,6 @@
                     </span>
                 </div>
 
-
                 <div class="heart-display">
 
                     <div class="heart-circle">
@@ -96,17 +96,15 @@
 
                     <div>
                         <small>HEART RATE</small>
-
                         <strong>
-                            72 <span>BPM</span>
+                            72
+                            <span>BPM</span>
                         </strong>
                     </div>
 
                 </div>
 
-
                 <div class="mini-chart">
-
                     <span></span>
                     <span></span>
                     <span></span>
@@ -119,9 +117,7 @@
                     <span></span>
                     <span></span>
                     <span></span>
-
                 </div>
-
 
                 <div class="monitor-footer">
                     <span>Sensor: HR-04</span>
@@ -131,11 +127,539 @@
             </div>
 
         </div>
+    </section>
+
+
+    <!-- ================= METABOLIC SYNDROME ================= -->
+
+    <section class="metabolic-section" id="metabolic">
+
+        <div class="container">
+
+            <div class="section-title">
+                <span class="eyebrow">
+                    ABOUT THE CONDITION
+                </span>
+
+                <h2>
+                    What Is Metabolic Syndrome?
+                </h2>
+            </div>
+
+
+            <div class="metabolic-content">
+
+                <div class="metabolic-text">
+
+                    <p>
+                        Metabolic syndrome is a group of health conditions
+                        that can increase the risk of cardiovascular disease,
+                        type 2 diabetes and other health problems.
+                    </p>
+
+                    <p>
+                        IoT-based monitoring can collect physiological data
+                        continuously and provide healthcare professionals
+                        with useful information about a patient's condition.
+                    </p>
+
+                    <p>
+                        Connected sensors can measure blood pressure,
+                        glucose, heart rate, oxygen saturation and body
+                        temperature and transmit the measurements to a
+                        monitoring platform.
+                    </p>
+
+                </div>
+
+
+                <div class="metabolic-factors">
+
+                    <div class="factor">
+                        <strong>01</strong>
+                        <span>High blood pressure</span>
+                    </div>
+
+                    <div class="factor">
+                        <strong>02</strong>
+                        <span>Elevated blood glucose</span>
+                    </div>
+
+                    <div class="factor">
+                        <strong>03</strong>
+                        <span>Abnormal cholesterol levels</span>
+                    </div>
+
+                    <div class="factor">
+                        <strong>04</strong>
+                        <span>Increased abdominal obesity</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </section>
 
 
-    <!-- Patient Information -->
+    <!-- ================= MEDICAL IoT DEVICES ================= -->
+
+    <section class="devices-section" id="devices">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span class="eyebrow">
+                    MEDICAL IoT DEVICES
+                </span>
+
+                <h2>
+                    Connected Sensors
+                </h2>
+
+            </div>
+
+
+            <div class="devices-grid">
+
+
+                <figure class="device-card">
+
+                    <img
+                        src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Blood_pressure_monitor.jpg"
+                        alt="Blood pressure monitor"
+                    >
+
+                    <figcaption>
+
+                        <strong>
+                            Blood Pressure Monitor
+                        </strong>
+
+                        <span>
+                            Measures systolic and diastolic blood pressure.
+                        </span>
+
+                    </figcaption>
+
+                </figure>
+
+
+                <figure class="device-card">
+
+                    <img
+                        src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Glucose_meters.jpg"
+                        alt="Blood glucose meters"
+                    >
+
+                    <figcaption>
+
+                        <strong>
+                            Glucose Monitor
+                        </strong>
+
+                        <span>
+                            Measures blood glucose levels for metabolic health monitoring.
+                        </span>
+
+                    </figcaption>
+
+                </figure>
+
+
+                <figure class="device-card">
+
+                    <img
+                        src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Pulse_oximeter_sensor.jpg"
+                        alt="Pulse oximeter sensor"
+                    >
+
+                    <figcaption>
+
+                        <strong>
+                            Pulse Oximeter
+                        </strong>
+
+                        <span>
+                            Measures blood oxygen saturation and pulse rate.
+                        </span>
+
+                    </figcaption>
+
+                </figure>
+
+
+                <figure class="device-card">
+
+                    <img
+                        src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Thermometer_(Digital).png"
+                        alt="Digital medical thermometer"
+                    >
+
+                    <figcaption>
+
+                        <strong>
+                            Digital Thermometer
+                        </strong>
+
+                        <span>
+                            Measures body temperature using a digital sensor.
+                        </span>
+
+                    </figcaption>
+
+                </figure>
+
+
+                <figure class="device-card">
+
+                    <img
+                        src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Blood_Pressure_Monitor.jpg"
+                        alt="Ambulatory blood pressure monitor"
+                    >
+
+                    <figcaption>
+
+                        <strong>
+                            Ambulatory BP Sensor
+                        </strong>
+
+                        <span>
+                            Allows blood pressure measurements during daily activities.
+                        </span>
+
+                    </figcaption>
+
+                </figure>
+
+
+                <figure class="device-card">
+
+                    <img
+                        src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Pulse_Oximeter_(49913136592).jpg"
+                        alt="Pulse oximeter medical device"
+                    >
+
+                    <figcaption>
+
+                        <strong>
+                            Connected Oximeter
+                        </strong>
+
+                        <span>
+                            A sensor used for monitoring oxygen saturation and pulse.
+                        </span>
+
+                    </figcaption>
+
+                </figure>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FLOAT INFO ================= -->
+
+    <section class="float-section">
+
+        <div class="container">
+
+            <div class="info-block clearfix">
+
+                <img
+                    class="float-device"
+                    src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Pulse_oximeter_sensor.jpg"
+                    alt="Medical pulse oximeter sensor"
+                >
+
+                <h2>
+                    IoT Monitoring in Practice
+                </h2>
+
+                <p>
+                    A connected medical sensor collects a measurement and
+                    sends it to an IoT device or gateway. The gateway can
+                    transmit the information to a cloud or server where
+                    health data can be stored and viewed by authorized users.
+                </p>
+
+                <p>
+                    Continuous monitoring can help organize repeated
+                    measurements and make changes in physiological
+                    parameters easier to notice.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HOW IT WORKS ================= -->
+
+    <section class="how-section" id="how-it-works">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span class="eyebrow">
+                    IoT ARCHITECTURE
+                </span>
+
+                <h2>
+                    How the IoT Monitoring System Works
+                </h2>
+
+            </div>
+
+
+            <div class="system-visual">
+
+                <div class="system-badge">
+                    5-STAGE DATA FLOW
+                </div>
+
+
+                <div class="flow-grid">
+
+
+                    <article class="flow-card">
+
+                        <div class="flow-icon">
+                            01
+                        </div>
+
+                        <h3>
+                            Sensors
+                        </h3>
+
+                        <p>
+                            Medical sensors measure blood pressure,
+                            glucose, heart rate, oxygen and temperature.
+                        </p>
+
+                    </article>
+
+
+                    <div class="flow-arrow">
+                        →
+                    </div>
+
+
+                    <article class="flow-card">
+
+                        <div class="flow-icon">
+                            02
+                        </div>
+
+                        <h3>
+                            IoT Device
+                        </h3>
+
+                        <p>
+                            A connected device receives measurements
+                            from the medical sensors.
+                        </p>
+
+                    </article>
+
+
+                    <div class="flow-arrow">
+                        →
+                    </div>
+
+
+                    <article class="flow-card">
+
+                        <div class="flow-icon">
+                            03
+                        </div>
+
+                        <h3>
+                            Data Transmission
+                        </h3>
+
+                        <p>
+                            Data is transmitted through a network
+                            connection to a server or cloud platform.
+                        </p>
+
+                    </article>
+
+
+                    <div class="flow-arrow">
+                        →
+                    </div>
+
+
+                    <article class="flow-card">
+
+                        <div class="flow-icon">
+                            04
+                        </div>
+
+                        <h3>
+                            Cloud / Server
+                        </h3>
+
+                        <p>
+                            Measurements can be stored, processed
+                            and presented in a monitoring dashboard.
+                        </p>
+
+                    </article>
+
+
+                    <div class="flow-arrow">
+                        →
+                    </div>
+
+
+                    <article class="flow-card">
+
+                        <div class="flow-icon">
+                            05
+                        </div>
+
+                        <h3>
+                            Doctor / Patient
+                        </h3>
+
+                        <p>
+                            Authorized users can review the information
+                            and follow changes in the patient's data.
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PHYSIOLOGICAL PARAMETERS ================= -->
+
+    <section class="parameters-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span class="eyebrow">
+                    PHYSIOLOGICAL PARAMETERS
+                </span>
+
+                <h2>
+                    What the System Monitors
+                </h2>
+
+            </div>
+
+
+            <div class="parameters-grid">
+
+
+                <div class="parameter-item">
+
+                    <strong>
+                        Blood Pressure
+                    </strong>
+
+                    <span>
+                        Helps track systolic and diastolic pressure readings.
+                    </span>
+
+                </div>
+
+
+                <div class="parameter-item">
+
+                    <strong>
+                        Blood Glucose
+                    </strong>
+
+                    <span>
+                        Provides glucose measurements for metabolic monitoring.
+                    </span>
+
+                </div>
+
+
+                <div class="parameter-item">
+
+                    <strong>
+                        Heart Rate
+                    </strong>
+
+                    <span>
+                        Tracks the number of heart beats per minute.
+                    </span>
+
+                </div>
+
+
+                <div class="parameter-item">
+
+                    <strong>
+                        SpO₂
+                    </strong>
+
+                    <span>
+                        Shows blood oxygen saturation measured by an oximeter.
+                    </span>
+
+                </div>
+
+
+                <div class="parameter-item">
+
+                    <strong>
+                        Temperature
+                    </strong>
+
+                    <span>
+                        Records body temperature from a digital thermometer.
+                    </span>
+
+                </div>
+
+
+                <div class="parameter-item">
+
+                    <strong>
+                        ECG
+                    </strong>
+
+                    <span>
+                        Provides an electrocardiogram signal for cardiac monitoring.
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PATIENT ================= -->
+
     <section class="patient-section" id="patient">
 
         <div class="container">
@@ -146,7 +670,9 @@
                     PATIENT PROFILE
                 </span>
 
-                <h2>Current Patient</h2>
+                <h2>
+                    Current Patient
+                </h2>
 
             </div>
 
@@ -206,7 +732,8 @@
     </section>
 
 
-    <!-- Sensor Dashboard -->
+    <!-- ================= SENSOR DASHBOARD ================= -->
+
     <section class="dashboard" id="sensors">
 
         <div class="container">
@@ -225,7 +752,6 @@
 
                 </div>
 
-
                 <div class="last-sync">
 
                     Last synchronization
@@ -242,8 +768,6 @@
             <div class="sensor-grid">
 
 
-                <!-- Body Temperature -->
-
                 <article class="sensor-card">
 
                     <div class="sensor-top">
@@ -258,9 +782,9 @@
 
                     </div>
 
-                    <h3 class="sensor-name">
+                    <p class="sensor-name">
                         Body Temperature
-                    </h3>
+                    </p>
 
                     <div class="value">
                         36.6
@@ -268,27 +792,16 @@
                     </div>
 
                     <div class="meter">
-
-                        <div style="width:43%;"></div>
-
+                        <div style="width: 43%;"></div>
                     </div>
 
                     <div class="sensor-bottom">
-
-                        <span>
-                            Sensor T-01
-                        </span>
-
-                        <span>
-                            21:21
-                        </span>
-
+                        <span>Sensor T-01</span>
+                        <span>21:21</span>
                     </div>
 
                 </article>
 
-
-                <!-- Blood Glucose -->
 
                 <article class="sensor-card">
 
@@ -304,9 +817,9 @@
 
                     </div>
 
-                    <h3 class="sensor-name">
+                    <p class="sensor-name">
                         Blood Glucose
-                    </h3>
+                    </p>
 
                     <div class="value">
                         6.4
@@ -314,27 +827,16 @@
                     </div>
 
                     <div class="meter">
-
-                        <div style="width:48%;"></div>
-
+                        <div style="width: 48%;"></div>
                     </div>
 
                     <div class="sensor-bottom">
-
-                        <span>
-                            Sensor BG-02
-                        </span>
-
-                        <span>
-                            21:20
-                        </span>
-
+                        <span>Sensor BG-02</span>
+                        <span>21:20</span>
                     </div>
 
                 </article>
 
-
-                <!-- Heart Rate -->
 
                 <article class="sensor-card">
 
@@ -350,9 +852,9 @@
 
                     </div>
 
-                    <h3 class="sensor-name">
+                    <p class="sensor-name">
                         Heart Rate
-                    </h3>
+                    </p>
 
                     <div class="value">
                         72
@@ -360,27 +862,16 @@
                     </div>
 
                     <div class="meter">
-
-                        <div style="width:51%;"></div>
-
+                        <div style="width: 51%;"></div>
                     </div>
 
                     <div class="sensor-bottom">
-
-                        <span>
-                            Sensor HR-04
-                        </span>
-
-                        <span>
-                            21:22
-                        </span>
-
+                        <span>Sensor HR-04</span>
+                        <span>21:22</span>
                     </div>
 
                 </article>
 
-
-                <!-- Blood Pressure -->
 
                 <article class="sensor-card elevated-card">
 
@@ -396,9 +887,9 @@
 
                     </div>
 
-                    <h3 class="sensor-name">
+                    <p class="sensor-name">
                         Blood Pressure
-                    </h3>
+                    </p>
 
                     <div class="value">
                         138/87
@@ -406,27 +897,16 @@
                     </div>
 
                     <div class="meter orange-meter">
-
-                        <div style="width:69%;"></div>
-
+                        <div style="width: 69%;"></div>
                     </div>
 
                     <div class="sensor-bottom">
-
-                        <span>
-                            Sensor BP-07
-                        </span>
-
-                        <span>
-                            21:19
-                        </span>
-
+                        <span>Sensor BP-07</span>
+                        <span>21:19</span>
                     </div>
 
                 </article>
 
-
-                <!-- ECG -->
 
                 <article class="sensor-card">
 
@@ -442,9 +922,9 @@
 
                     </div>
 
-                    <h3 class="sensor-name">
+                    <p class="sensor-name">
                         Electrocardiogram
-                    </h3>
+                    </p>
 
                     <div class="value ecg-value">
                         Sinus
@@ -456,21 +936,12 @@
                     </div>
 
                     <div class="sensor-bottom">
-
-                        <span>
-                            Sensor ECG-03
-                        </span>
-
-                        <span>
-                            21:22
-                        </span>
-
+                        <span>Sensor ECG-03</span>
+                        <span>21:22</span>
                     </div>
 
                 </article>
 
-
-                <!-- Blood Oxygen -->
 
                 <article class="sensor-card">
 
@@ -486,9 +957,9 @@
 
                     </div>
 
-                    <h3 class="sensor-name">
+                    <p class="sensor-name">
                         Blood Oxygen
-                    </h3>
+                    </p>
 
                     <div class="value">
                         97
@@ -496,24 +967,16 @@
                     </div>
 
                     <div class="meter">
-
-                        <div style="width:94%;"></div>
-
+                        <div style="width: 94%;"></div>
                     </div>
 
                     <div class="sensor-bottom">
-
-                        <span>
-                            Sensor OX-05
-                        </span>
-
-                        <span>
-                            21:21
-                        </span>
-
+                        <span>Sensor OX-05</span>
+                        <span>21:21</span>
                     </div>
 
                 </article>
+
 
             </div>
 
@@ -522,7 +985,203 @@
     </section>
 
 
-    <!-- Alerts -->
+    <!-- ================= DATA TRANSMISSION + BENEFITS ================= -->
+
+    <section class="data-section">
+
+        <div class="container data-grid">
+
+
+            <div class="data-card">
+
+                <span class="eyebrow">
+                    DATA TRANSMISSION
+                </span>
+
+                <h2>
+                    From Sensor to Dashboard
+                </h2>
+
+                <p>
+                    The monitoring workflow starts with physiological
+                    measurements. The IoT device receives the readings
+                    and sends them through a communication network to
+                    a cloud or server platform.
+                </p>
+
+
+                <ul class="data-list">
+
+                    <li>
+                        Sensor collects a physiological measurement
+                    </li>
+
+                    <li>
+                        IoT device receives the sensor reading
+                    </li>
+
+                    <li>
+                        Network transmits the data
+                    </li>
+
+                    <li>
+                        Cloud/server stores and processes information
+                    </li>
+
+                    <li>
+                        Dashboard displays the result to authorized users
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="data-card benefits-card">
+
+                <span class="eyebrow">
+                    BENEFITS
+                </span>
+
+                <h2>
+                    Why Continuous Monitoring?
+                </h2>
+
+
+                <ul class="benefit-list">
+
+                    <li>
+                        Frequent access to physiological measurements
+                    </li>
+
+                    <li>
+                        Centralized health data
+                    </li>
+
+                    <li>
+                        Faster visibility of unusual readings
+                    </li>
+
+                    <li>
+                        Remote monitoring support
+                    </li>
+
+                    <li>
+                        Better organization of repeated measurements
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= MULTIMEDIA ================= -->
+
+    <section class="media-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span class="eyebrow">
+                    MULTIMEDIA
+                </span>
+
+                <h2>
+                    Learn About Connected Healthcare
+                </h2>
+
+            </div>
+
+
+            <div class="media-grid">
+
+
+                <div class="media-card">
+
+                    <h3>
+                        Medical IoT Audio
+                    </h3>
+
+                    <p>
+                        Example audio control for the healthcare monitoring page.
+                    </p>
+
+                    <audio controls>
+
+                        <source
+                            src="https://www.w3schools.com/html/horse.ogg"
+                            type="audio/ogg"
+                        >
+
+                        <source
+                            src="https://www.w3schools.com/html/horse.mp3"
+                            type="audio/mpeg"
+                        >
+
+                        Your browser does not support audio.
+
+                    </audio>
+
+                </div>
+
+
+                <div class="media-card">
+
+                    <h3>
+                        IoT Healthcare Video
+                    </h3>
+
+                    <div class="video-frame">
+                        <iframe
+                            src="https://www.youtube.com/embed/3uvazFlctQ0"
+                            title="The Internet of Things and Healthcare"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+
+                        
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="resource-links">
+
+                <a
+                    class="resource-link"
+                    href="https://www.who.int/health-topics/cardiovascular-diseases"
+                    target="_blank"
+                >
+                    External health information — WHO
+                </a>
+
+
+                <a
+                    class="resource-link"
+                    href="https://www.google.com/maps/search/medical+center+Almaty"
+                    target="_blank"
+                >
+                    Open medical centers in Almaty on the map
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ALERTS ================= -->
+
     <section class="alerts-section" id="alerts">
 
         <div class="container">
@@ -632,6 +1291,7 @@
 
                 </div>
 
+
             </div>
 
         </div>
@@ -641,7 +1301,8 @@
 </main>
 
 
-<!-- Footer -->
+<!-- ================= FOOTER ================= -->
+
 <footer class="footer">
 
     <div class="container footer-grid">
@@ -669,6 +1330,7 @@
 
             </div>
 
+
             <p>
                 Connected healthcare monitoring
                 for a healthier tomorrow.
@@ -685,6 +1347,18 @@
 
             <a href="#overview">
                 Overview
+            </a>
+
+            <a href="#metabolic">
+                Condition
+            </a>
+
+            <a href="#devices">
+                Devices
+            </a>
+
+            <a href="#how-it-works">
+                How It Works
             </a>
 
             <a href="#sensors">
@@ -731,9 +1405,11 @@
 
         </div>
 
+
     </div>
 
 </footer>
+
 
 </body>
 </html>
